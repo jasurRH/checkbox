@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkbox</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <!-- <link rel="stylesheet" href="./css/main.css"> -->
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+  <form action="https://echo.htmlacademy.ru" method="POST" autocomplete="off">
+    <h2>Qaysi sport turiga qiziqasiz?</h2>
+    <label class="label">
+      <input class="input visually-hidden" id="input-tennis" type="checkbox" name="sport_tennis">
+      <span class="input_controller"></span>
+      <span class="label-span" >Stol tennisi</span>
+    </label>
+    <label class="label">
+      <input class="input visually-hidden" id="input-basketball" type="checkbox" name="sport_basketball">
+      <span class="input_controller"></span>
+      <span class="label-span" >Basketbol</span> 
+    </label>
+    <label class="label">
+      <input class="input visually-hidden" id="input-volleyball" type="checkbox" name="sport_volleyball">
+      <span class="input_controller"></span>
+      <span class="label-span">Voleybol</span> 
+    </label>
+    <label class="label">
+      <input class="input visually-hidden" id="input-hockey" type="checkbox" name="sport_hockey">
+      <span class="input_controller"></span>
+      <span class="label-span">Xokkey</span> 
+    </label>
+    
+    <p>checked</p>
+    <label class="label">
+      <input class="input visually-hidden" id="input-three" type="checkbox" name="sport_volleyball" disabled>
+      <span class="input_controller"></span>
+      <span class="label-span">Voleybol</span> 
+    </label>
+
+    <p>checked and disabled</p>
+    <label class="label">
+      <input class="input visually-hidden" id="input-four" type="checkbox" name="sport_hockey" disabled checked>
+      <span class="input_controller"></span>
+      <span class="label-span">Xokkey</span> 
+    </label>
+  </form>
+</body>
+</html>
